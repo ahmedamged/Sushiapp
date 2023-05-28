@@ -21,15 +21,18 @@
 .header__logo h4 {
     padding-left: 30px;
     color: #fff;
-    font-family: var(--plus-jakarta-sans);
-    font-size: 16px;
+    font-size: 24px;
+    font-family: var(--playfair-display);
+    font-weight: 700;
+    opacity: 0.8;
+    text-transform: uppercase;
 }
 
 .header__menu,
 .header__menu-mobile {
   padding: 20px;
 
-  flex: 1.235;
+  flex: 1.236;
   display: flex;
   justify-content: flex-end;
   align-items: center;
